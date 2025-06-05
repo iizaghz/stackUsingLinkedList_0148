@@ -72,3 +72,12 @@ class Stack
         } // return the value of the top node
     }
 };
+
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int value;
+
+}
