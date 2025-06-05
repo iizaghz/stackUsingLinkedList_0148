@@ -96,7 +96,11 @@ int main()
             cin >> value;
             stack.push(value); //push the entered value onto the stack
             break;
-        
+        case 2:
+            stack.pop(); // pop the topmost element from the stack
+            break;
+        }
+
     }
     return 0;
 }
