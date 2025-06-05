@@ -60,5 +60,15 @@ class Stack
             cout << "List is Empty." << endl;
             return; // if the stack is empty, print a message and return
         }
+        else
+        {
+            Node *current = top;
+            while (current != NULL)
+            {
+                cout << current << current->data << " " << endl;
+                current = current->next;
+            }
+            cout << endl;
+        } // return the value of the top node
     }
 };
