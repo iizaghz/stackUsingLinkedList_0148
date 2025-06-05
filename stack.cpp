@@ -34,4 +34,7 @@ class Stack
         cout << "Push value: " << value << endl;
         return value;
     }
+    //isEmpty operation: check if the stack is empty
+    bool isEmpty()
+    {}
 };
