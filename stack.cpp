@@ -54,5 +54,11 @@ class Stack
 
     // peek/top operation: pretrieve the value of the topmost element without rwmoving it
     void peek()
-    {}
+    {
+        if (isEmpty())
+        {
+            cout << "List is Empty." << endl;
+            return; // if the stack is empty, print a message and return
+        }
+    }
 };
