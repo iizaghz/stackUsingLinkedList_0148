@@ -43,6 +43,7 @@ class Stack
     //pop operating: remove the topmost element from the stack
     void pop()
     {
+        Node* temp = top; // create a temporarry pointer to the current top node
         if (isEmpty())
         {
             cout << "Stack is empty." << endl;
@@ -50,6 +51,7 @@ class Stack
         }
         cout << "Popped value: " << top->data << endl;
         top = top->next; // update the top pointer to the next node
+        temp = nullptr; // free the memory of the popped node
     }
 
     // peek/top operation: pretrieve the value of the topmost element without rwmoving it
