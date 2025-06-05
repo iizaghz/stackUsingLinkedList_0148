@@ -51,4 +51,8 @@ class Stack
         cout << "Popped value: " << top->data << endl;
         top = top->next; // update the top pointer to the next node
     }
+
+    // peek/top operation: pretrieve the value of the topmost element without rwmoving it
+    void peek()
+    {}
 };
